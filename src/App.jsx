@@ -172,7 +172,7 @@ function App() {
 
             <div className="profile-image-wrap">
               <img
-                src="/profile.jpg"
+                src={`${import.meta.env.BASE_URL}profile.jpg`}
                 alt="Rani Sankanur"
                 className="profile-image"
               />
@@ -444,7 +444,7 @@ function App() {
             </a>
 
             <a
-              href="/Rani_Sankanur_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Rani_Sankanur_Resume.pdf`}
               className="btn secondary"
               download
             >
